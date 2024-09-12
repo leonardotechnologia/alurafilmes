@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    color: white;
+    background: black;
+    margin-bottom: 50px;
+}
+
+header {
+    border-bottom: solid 3px greenyellow;
+    padding: 20px;
+    font-size: 50px;
+    color: greenyellow;
+    font-family: "Jersey 20 Charted", sans-serif;
+}
+
+.title {
+    background: #545744;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.video-name {
+    margin-right: 5%;
+}
+  
+h1 {
+    font-size: 40px;
+    font-family: "Honk", system-ui;
+}
+
+p {
+    font-size: 20px;
+}
+
+.video-category {
+    display: flex;
+    overflow-x: auto;
+    gap: 8px;
+}
+
+.category {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.category h2 {
+    font-size: 40px;
+    color: greenyellow;
+    font-family: "Jersey 20 Charted", sans-serif;
+} 
+
+.video-category img {
+    opacity: 0.5;
+    height: 300px;
+}
+
+.video-category img:hover {
+    opacity: 1.0;
+    border: solid 1px greenyellow;
+}
